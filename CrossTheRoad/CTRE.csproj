@@ -82,16 +82,27 @@
     <Compile Include="CANifierStickyFaults.cs" />
     <Compile Include="CTRENativeWrapper.cs" />
     <Compile Include="ErrorCode.cs" />
+    <Compile Include="Motion\TrajectoryPoint.cs" />
+    <Compile Include="MotorControl\ControlFrame.cs" />
+    <Compile Include="MotorControl\Faults.cs" />
     <Compile Include="ILoopable.cs" />
+    <Compile Include="MotorControl\FeedbackDevice.cs" />
+    <Compile Include="MotorControl\IFollower.cs" />
+    <Compile Include="MotorControl\IMotorController.cs" />
+    <Compile Include="MotorControl\LimitSwitchNormal.cs" />
+    <Compile Include="MotorControl\RemoteFeedbackDevice.cs" />
+    <Compile Include="MotorControl\RemoteLimitSwitchSource.cs" />
+    <Compile Include="MotorControl\RemoteSensorSource.cs" />
+    <Compile Include="MotorControl\SensorTerm.cs" />
+    <Compile Include="MotorControl\StatusFrame.cs" />
     <Compile Include="ParamEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signals\IInvertable.cs" />
+    <Compile Include="Signals\IOutputSignal.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Motion\" />
-    <Folder Include="MotorControl\" />
     <Folder Include="Schedulers\" />
     <Folder Include="Sensors\" />
-    <Folder Include="Signals\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
